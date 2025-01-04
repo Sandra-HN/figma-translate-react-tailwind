@@ -1,0 +1,9 @@
+{
+  "Welcome": "Welcome to Our Website",
+  "Description": "This is an example of multi-language support.",
+  "Home": "Home",
+  "About": "About",
+  "Profile": "Profile",
+  "Logo": "Logo",
+  "© {{year}} My App. All rights reserved.": "© {{year}} My App. All rights reserved."
+}

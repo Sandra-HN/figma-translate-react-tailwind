@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sohne-Buch";
+  src: url("/public/assets/fonts/Sohne/TestSohne-Buch-BF663d89cd32e6a.otf")
+    format("opentype");
+  font-weight: 400; /* Adjust if your font has a specific weight */
+  font-style: normal; /* or italic, if needed */
+  font-display: swap; /* ensures text is visible while font loads */
+}
+
+@font-face {
+  font-family: "Sohne-Dreiviertel";
+  src: url("/public/assets/fonts/Sohne/TestSohneBreit-Dreiviertelfett-BF663d89c955618.otf")
+    format("opentype");
+  font-weight: 400; /* Adjust if your font has a specific weight */
+  font-style: normal; /* or italic, if needed */
+  font-display: swap; /* ensures text is visible while font loads */
+}
+@font-face {
+  font-family: "Sohne-Kraftig";
+  src: url("/public/assets/fonts/Sohne/TestSohneMono-Kraftig-BF663d89cd2bd2d.otf")
+    format("opentype");
+  font-weight: 400; /* Adjust if your font has a specific weight */
+  font-style: normal; /* or italic, if needed */
+  font-display: swap; /* ensures text is visible while font loads */
+}
+
+body {
+  font-family: "Sohne-Buch";
+}
